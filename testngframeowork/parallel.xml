@@ -1,0 +1,21 @@
+<suite name="p" parallel="tests">
+<test name="k" >
+<classes>
+<class name="com.smokeTest">
+
+</class>
+<class name="com.unitTest">
+
+</class>
+</classes>
+</test>
+<test name="k" >
+<classes>
+
+<class name="com.dataDriveTest">
+
+</class>
+</classes>
+</test>
+
+</suite>

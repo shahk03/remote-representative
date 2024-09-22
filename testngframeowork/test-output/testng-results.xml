@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="12" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-31T12:26:44 EDT" name="Default suite" finished-at="2024-08-31T12:26:45 EDT" duration-ms="143">
+    <groups>
+    </groups>
+    <test started-at="2024-08-31T12:26:44 EDT" name="Default test" finished-at="2024-08-31T12:26:45 EDT" duration-ms="143">
+      <class name="com.bit.test.datadriventest">
+        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:com.bit.test.datadriventest@13c10b87]" started-at="2024-08-31T12:26:45 EDT" name="f" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.bit.test.datadriventest.f(java.lang.Integer,java.lang.String) requires a @DataProvider named : dp]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.bit.test.datadriventest.f(java.lang.Integer,java.lang.String) requires a @DataProvider named : dp
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:561)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.bit.test.datadriventest -->
+      <class name="com.bit.test.UnitTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:44 EDT" name="beforeSuite" finished-at="2024-08-31T12:26:44 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:44 EDT" name="beforeTest" finished-at="2024-08-31T12:26:44 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="beforeClass" finished-at="2024-08-31T12:26:45 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="beforeMethod" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="test2" finished-at="2024-08-31T12:26:45 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="afterMethod" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="beforeMethod" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="test3" finished-at="2024-08-31T12:26:45 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="afterMethod" finished-at="2024-08-31T12:26:45 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="afterClass" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="afterTest" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.bit.test.UnitTest@25d250c6]" started-at="2024-08-31T12:26:45 EDT" name="afterSuite" finished-at="2024-08-31T12:26:45 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.bit.test.UnitTest -->
+      <class name="com.bit.test.SmokeTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.bit.test.SmokeTest@6b26e945]" started-at="2024-08-31T12:26:45 EDT" name="beforeClass" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.bit.test.SmokeTest@6b26e945]" started-at="2024-08-31T12:26:45 EDT" name="beforeMethod" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:com.bit.test.SmokeTest@6b26e945]" started-at="2024-08-31T12:26:45 EDT" name="test1" finished-at="2024-08-31T12:26:45 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bit.test.SmokeTest@6b26e945]" started-at="2024-08-31T12:26:45 EDT" name="afterMethod" finished-at="2024-08-31T12:26:45 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bit.test.SmokeTest@6b26e945]" started-at="2024-08-31T12:26:45 EDT" name="afterClass" finished-at="2024-08-31T12:26:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bit.test.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
